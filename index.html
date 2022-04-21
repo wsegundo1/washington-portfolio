@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Washington Portifólio</title>
+</head>
+<body>
+    <!-- =============== HEADER =============== -->
+    <header class="profile container">
+        <!-- Botão de Tema -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/perfil.jpg" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Washington Oliveira</h2>
+                <h3 class="profile__profession">Front-End & UI Designer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/washingtonolivo/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/washington-oliveira-a967a2218/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://github.com/wsegundo1" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1</h3>
+                    <p class="profile__info-description">
+                        Ano de <br> Trabalho
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">10</h3>
+                    <p class="profile__info-description">
+                        Projetos <br> Realizados
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">5</h3>
+                    <p class="profile__info-description">
+                        Clientes <br> Satisfeitos
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a download="" href="assets/pdf/CURRÍCULO WASHINGTON 2021.pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=5586994060610" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- =============== MAIN =============== -->
+    <main class="main">
+        <section class="filters container">
+            <!-- =============== abas de filtros =============== -->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects-front">
+                    Projetos Front
+                </button>
+
+                <button class="filters__button" data-target="#projects-design">
+                    Projetos Design
+                </button>
+
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+
+            </ul>
+
+            <div class="filters__section">
+                <!-- =============== projetos front =============== -->
+                <div class="projects__content grid filters__active" data-content id="projects-front">
+                    <article class="projects__card">
+                        <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Portal Fácil</h3>
+                                <a target="_blank" href="https://github.com/wsegundo1/Portal_Facil" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web Vue-JS</span>
+                                <h3 class="projects__title">Make Burger</h3>
+                                <a target="_blank" href="https://github.com/wsegundo1/make_burger-VUEJS" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">HZC</h3>
+                                <a target="_blank" href="https://github.com/wsegundo1/hzc_site" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Bootstrap Site</h3>
+                                <a target="_blank" href="https://github.com/wsegundo1/site_bootstrap" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Projeto Paralax</h3>
+                                <a target="_blank" href="https://github.com/wsegundo1/porjeto_paralax" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- =============== projetos design =============== -->
+
+                <div class="projects__content grid" data-content id="projects-design">
+                    <article class="projects__card">
+                        <img src="assets/img/d1.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">UI Design</span>
+                                <h3 class="projects__title">Move</h3>
+                                <a target="_blank" href="https://www.figma.com/file/V7Vru9J0usmo4gD5yZtVWb/MOVE" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/d2.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">UI Design</span>
+                                <h3 class="projects__title">Web Cursos</h3>
+                                <a target="_blank" href="https://www.figma.com/file/IuXu4QGs84ibdjTZT6Gvif/Web-Cursos" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/d3.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">UI Design</span>
+                                <h3 class="projects__title">Portal Fácil</h3>
+                                <a target="_blank" href="https://www.figma.com/file/ZYycfkNF0IQWpL8jL4sKi7/PORTAL-FACIL" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/d4.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">UI Design</span>
+                                <h3 class="projects__title">Fibra Sat</h3>
+                                <a target="_blank" href="https://www.figma.com/file/GmwXQrEitDrRhJyDXPaJUL/Fibra-Sat" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/d5.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">UI Design</span>
+                                <h3 class="projects__title">Bank App</h3>
+                                <a target="_blank" href="https://www.figma.com/file/h20IOeTRtdEuolPuQXOIwJ/Bank-App" class="projects__button button button__small">
+                                    <img src="assets/img/link.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- =============== habilidades =============== -->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Desenvolvedor Front-End
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Avançado</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Avançado</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">JAVASCRIPT</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">Vue Js</h3>
+                                        <span class="skills__level">Básico</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Básico</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Design 
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">UI Design</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">UX Design</h3>
+                                        <span class="skills__level">Básico</span>
+                                    </div>
+                                </div>
+
+                                </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <img src="assets/img/checkbox-circle-line.svg" alt="">
+
+                                    <div>
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>       
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- =============== FOOTER =============== -->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Washington Oliveira. All rigths reserved
+        </span>
+    </footer>
+
+    <!-- =============== SCROLL =============== -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- =============== JAVASCRIPT =============== -->
+    <Script src="assets/js/main.js"></Script>
+</body>
+</html>
